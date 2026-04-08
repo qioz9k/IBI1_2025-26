@@ -24,6 +24,12 @@ Below are links to my IBI1 practical assignments:
 ### Practical5 
 - [Practical 5 Folder](Practiacl5/)
 
+### Practical7    
+- [Practical 7 Folder](Practiacl7/)
+
+### Practical8 
+- [Practical 8 Folder](Practiacl8/)
+
 
 ---
 
