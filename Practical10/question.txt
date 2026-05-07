@@ -1,0 +1,5 @@
+1. My research question: What is the distribution of DALYs rates across all countries in 2019?
+
+2. Starting line of code: 87 plt.figure(figsize=(12, 6))
+
+3. Discussion of results: The histogram shows a right-skewed distribution. Most countries have relatively low DALYs rates, while only a few countries have extremely high values. This indicates that the global health burden is unequally distributed across countries.
