@@ -1,42 +1,38 @@
-
 """
-伪代码（实验文档要求）：
-1. 定义初始参数：
-   - 初始感染人数 = 5
-   - 日增长率 = 40%（即0.4）
-   - 班级总人数 = 91
-   - 当日感染数 = 初始感染数
-   - 天数 = 1（第1天为初始状态）
-2. 打印初始感染信息（方便验证）
-3. 启动while循环：当当日感染数 < 91时，持续计算：
-   - 天数 +1
-   - 当日感染数 = 前一日感染数 × (1 + 增长率)
-   - 打印当日天数和感染数（保留1位小数，更直观）
-4. 循环结束后，打印全员感染的总天数
+Pseudocode (Lab Document Requirement):
+1. Define initial parameters:
+   - initial infected = 5
+   - daily growth rate = 40% (0.4)
+   - total students in class = 91
+   - current infected = initial infected
+   - days = 1 (Day 1 is the initial state)
+2. Print initial infection information (for verification)
+3. Start while loop: continue calculating while current infected < 91
+   - days +1
+   - current infected = previous day infected × (1 + growth rate)
+   - print current day and infected count (1 decimal place for clarity)
+4. After loop ends, print total days for full infection
 """
 
+initial_infected = 5       # Initial infected population
+growth_rate = 0.4          # Daily growth rate 40%
+total_students = 91        # Total number of students in the class
+current_infected = initial_infected  # Daily infected population
+days = 1                   # Initial day count (Day 1)
 
-initial_infected = 5       # 初始感染人数
-growth_rate = 0.4          # 日增长率40%
-total_students = 91        # 班级总人数
-current_infected = initial_infected  #每日感染人数
-days = 1                   # 初始天数（第1天）
-
-
-print("=== 班级感染扩散模拟 ===")
-print(f"初始感染人数：{initial_infected} 人")
-print(f"日增长率：{growth_rate*100}%")
-print(f"班级总人数：{total_students} 人")
+print("=== Class Infection Spread Simulation ===")
+print(f"Initial infected: {initial_infected} people")
+print(f"Daily growth rate: {growth_rate*100}%")
+print(f"Total class size: {total_students} people")
 print("-" * 30)
-print(f"第 {days} 天，感染人数：{current_infected} 人") 
-# 循环条件：只要当日感染数 < 总人数，就继续计算
+print(f"Day {days}, Infected: {current_infected} people") 
+# Loop condition: continue as long as current infected < total students
 while current_infected < total_students:
-    days += 1  # 天数加1（进入下一天）
-    # 计算当日感染数：前一日感染数 × (1 + 增长率)
+    days += 1  # Increment day count (move to next day)
+    # Calculate current infected: previous day × (1 + growth rate)
     current_infected = current_infected * (1 + growth_rate)
-    # 打印当日数据（保留1位小数，避免小数位数过多）
-    print(f"第 {days} 天，感染人数：{current_infected:.1f} 人")
-
+    # Print daily data (1 decimal place to avoid excessive decimal digits)
+    print(f"Day {days}, Infected: {current_infected:.1f} people")
 
 print("-" * 30)
-print(f"模拟结束，全员{total_students}人感染，共花费 {days} 天")
+print(f"Simulation complete. All {total_students} students infected. Total days: {days}")
