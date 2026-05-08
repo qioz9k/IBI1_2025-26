@@ -1,4 +1,4 @@
-Hello, my name is Jiayi-Liu.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
-I am happy that I can push my repo from Visual Studio Code to GitHub
+Hello, My name is Jiayi Liu.
+I am a student taking the IBI1 course 2025/26.
+This is my GitHub repository for Practical 3: Getting Started with Git and GitHub.
+I am learning version control, Git, GitHub, and GitHub Pages in this practical.
