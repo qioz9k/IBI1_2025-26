@@ -38,3 +38,9 @@ if __name__ == "__main__":
     mass = calculate_protein_mass(sequence)
     print("Sequence:", sequence)
     print("Total mass:", mass)
+
+#test cases
+sequence2 = str(input("Please input an amino acid sequence:"))
+mass = calculate_protein_mass(sequence2)
+print("Sequence:", sequence2)
+print("Total mass:", mass)
