@@ -20,6 +20,8 @@ You can learn more about the ZJE Institute by visiting their official website <a
   <li><a href="Practical5/" style="color: #3182ce; font-weight: 500;">Practical 5 Assignment</a></li>
   <li><a href="Practical7/" style="color: #3182ce; font-weight: 500;">Practical 7 Assignment</a></li>
   <li><a href="Practical8/" style="color: #3182ce; font-weight: 500;">Practical 8 Assignment</a></li>
+  <li><a href="Practical9/" style="color: #3182ce; font-weight: 500;">Practical 9 Assignment</a></li>
+  <li><a href="Practical10/" style="color: #3182ce; font-weight: 500;">Practical 10 Assignment</a></li>
 </ul>
 
 <p style="text-align: center; margin-top: 3rem; color: #718096; font-size: 0.9rem;">
